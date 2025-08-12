@@ -1,0 +1,12 @@
+services:
+  api:
+    build:
+      context: ..
+      dockerfile: ./docker/Dockerfile
+      target: dev
+    ports:
+      - "8000:8000"
+    volumes:
+      - ../app:/app/app
+    environment:
+      - UVICORN_PORT=8000
