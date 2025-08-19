@@ -8,13 +8,14 @@ train-and-track/
 ├── README.md
 ├── uv.lock
 ├── .gitignore
+├── frontend/                    # React + Vite frontend
 ├── docker/
 │   ├── .dockerignore
 │   ├── Dockerfile
 │   └── docker-compose.yaml
 ├── app/
 │   ├── __init__.py
-│   ├── main.py                 # FastAPI app factory & startup
+│   └──  main.py                 # FastAPI app factory & startup
 ```
 
 # Local Development
